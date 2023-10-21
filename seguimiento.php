@@ -78,7 +78,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         <input type="text" class="form-control" id="txt_numero">
                     </div>
                     <div class="col-5">
-                        <label for="">Nro DNI</label>
+                        <label for="">Nro Identidad/Cédula</label>
                         <input type="text" class="form-control" id="txt_dni">
                     </div>
                     <div class="col-2">
