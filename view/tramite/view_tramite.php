@@ -38,7 +38,7 @@
                           <th>Nro Seguimiento</th>
                           <th>Nro Documento</th>
                           <th>Tipo Documento</th>
-                          <th>Dni Remi</th>
+                          <th>Céd/Iden Remi</th>
                           <th>Remitente</th>
                           <th>Mas Datos</th>
                           <th>Seguimiento</th>

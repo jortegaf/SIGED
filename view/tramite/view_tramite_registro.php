@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-6">
-                            <label for="">DNI</label>
+                            <label for="">Cédula/Ident</label>
                             <div class="input-group col-12">
                             <input type="text" class="form-control" id="txt_dni">
                                 <div class="input-group-prepend">
