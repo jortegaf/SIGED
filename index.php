@@ -63,13 +63,13 @@
           <!-- /.col -->
         </div>
 
-      <p class="mb-1">
+      <p class="mb-3">
         <a href="seguimiento.php">Rastrear Tramite</a>
       </p>
-      <p class="mb-1">
-        <a href="registrar.php">Registrar Tramite</a>
+     <!-- <p class="mb-1">-->
+     <!--  <a href="registrar.php">Registrar Tramite</a> -->
       </p>
-  
+     <!--        -->   
     </div>
     <!-- /.login-card-body -->
   </div>
