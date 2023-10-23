@@ -151,6 +151,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </p>
             </a>
           </li>
+            <a href="manual/manual.pdf" class="brand-link"> 
+             <li class="nav-item"> 
+              <i class="nav-icon fas fa-th\n"></i>  
+                 
+              <p>
+                Manual de Usuario
+              </p>
+            </a>
+          </li>
           <?php 
           } 
           ?>
@@ -160,6 +169,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
               <i class="nav-icon fas fa-file-signature"></i>
               <p>
                 Tramite Recibidos
+              </p>
+            </a>
+          </li>
+          <a href="manual/manual.pdf" class="brand-link"> 
+             <li class="nav-item"> 
+              <i class="nav-icon fas fa-th\n"></i>  
+                 
+              <p>
+                Manual de Usuario
               </p>
             </a>
           </li>
@@ -206,7 +224,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <div class="small-box bg-info">
                   <div class="inner">
                     <h3 id="lbl_tramite">0</h3>
-
                     <p>TRAMITES REGISTRADOS</p>
                   </div>
                   <div class="icon">
