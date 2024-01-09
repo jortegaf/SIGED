@@ -439,6 +439,23 @@ function listar_seguimiento_tramite(id){
     });
 }
 
+
+$(function() {
+    $('#reservationdate').daterangepicker();
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    fetch('obtenerUltimoNumeroDocumento.php') // Ruta a tu controlador que maneja la lógica
+        .then(response => response.json())
+        .then(data => {
+            // Establecer el valor en el campo txt_ndocumento
+            document.getElementById('txt_ndocumento').value = data.siguienteNumeroDocumento;
+        })
+        .catch(error => console.error('Error:', error));
+});
+
+
 $('#tabla_seguimiento').on('click','.ver',function(){
 	var data = tbl_seguimiento.row($(this).parents('tr')).data();//En tamaño escritorio
 	if(tbl_seguimiento.row(this).child.isShown()){

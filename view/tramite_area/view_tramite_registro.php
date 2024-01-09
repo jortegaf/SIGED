@@ -1,11 +1,15 @@
 <script src="../js/console_tramite_area.js?rev=<?php echo time();?>"></script>
+ <!--<script src="../plantilla/plugins/daterangepicker/daterangepicker.js">-->
+       
 <link rel="stylesheet" href="../plantilla/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+<link rel="stylesheet" href="../plantilla/plugins/daterangepicker/daterangepicker.css">
+<link rel="stylesheet" href="../plantilla/plugins/fontawesome-free/css/all.min.css">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">REGISITRO DE TRAMITE</h1>
+            <h1 class="m-0">REGISTRO DE TRAMITE</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -58,6 +62,16 @@
                                 <label for="" style="font-size:small;">EMAIL</label>
                                 <input type="text" class="form-control" id="txt_email">
                             </div>
+                            <div class="col-12 form-group">
+                                 <label for="reservationdatetime" style="font-size:small;">FECHA/RECEPCIÓN</label>
+                                 <div class="input-group date" id="reservationdatetime" data-target-input="nearest">
+                                      <input type="text" class="form-control daterangepicker-input" data-target="#reservationdatetime">
+                                      <div class="input-group-append" data-target="#reservationdatetime" data-toggle="daterangepicker">
+                                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                      </div>
+                                  </div>
+                            </div>
+                            
                             <div class="col-12">
                                 <label for="" style="font-size:small;">DIRECCIÓN</label>
                                 <input type="text" class="form-control" id="txt_dire">
@@ -223,3 +237,4 @@
             }
         });
     </script>
+    <script src="../plantilla/plugins/daterangepicker/daterangepicker.js">

@@ -409,6 +409,23 @@ function listar_seguimiento_tramite(id){
     });
 }
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el último número de documento registrado (simulado aquí con un valor inicial)
+    let ultimoNumeroDocumento = 1000; // Este valor debería obtenerse de tu base de datos o almacenamiento
+
+    // Incrementar el último número de documento para el siguiente documento
+    let siguienteNumeroDocumento = ultimoNumeroDocumento + 1;
+
+    // Establecer el valor en el campo txt_ndocumento
+    document.getElementById('txt_ndocumento').value = siguienteNumeroDocumento;
+});
+
+$(function() {
+    $('#reservationdate').datetimepicker();
+});
+
 $('#tabla_seguimiento').on('click','.ver',function(){
 	var data = tbl_seguimiento.row($(this).parents('tr')).data();//En tamaño escritorio
 	if(tbl_seguimiento.row(this).child.isShown()){
