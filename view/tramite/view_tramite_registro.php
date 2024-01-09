@@ -61,14 +61,9 @@
                                 <label for="" style="font-size:small;">EMAIL</label>
                                 <input type="text" class="form-control" id="txt_email">
                             </div>
-                            <div class="col-12 form-group">
-                                 <label for="reservationdatetime" style="font-size:small;">FECHA/RECEPCIÓN</label>
-                                 <div class="input-group date" id="reservationdatetime" data-target-input="nearest">
-                                      <input type="text" class="form-control daterangepicker-input" data-target="#reservationdatetime">
-                                      <div class="input-group-append" data-target="#reservationdatetime" data-toggle="daterangepicker">
-                                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                      </div>
-                                  </div>
+                            <div class="col-12">
+                            <label for="">FECHA/RECEPCIÓN</label>
+                            <input type="date" class="form-control" id="txt_frep">
                             </div>
                             <div class="col-12">
                                 <label for="" style="font-size:small;">DIRECCIÓN</label>

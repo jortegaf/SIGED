@@ -84,6 +84,7 @@ $('#tabla_tramite').on('click','.mas',function(){
     document.getElementById('txt_apemat').value=data.doc_apematremitente;
     document.getElementById('txt_celular').value=data.doc_celularremitente;
     document.getElementById('txt_email').value=data.doc_emailremitente;
+    document.getElementById('txt_frep').value=data.doc_fecharegistro;
     document.getElementById('txt_dire').value=data.doc_direccionremitente;
     if(data.doc_representacion=="A Nombre Propio"){
         $("#rad_presentacion1").prop('checked',true);
@@ -218,6 +219,7 @@ function Registrar_Tramite(){
     let apm = document.getElementById('txt_apemat').value;
     let cel = document.getElementById('txt_celular').value;
     let ema = document.getElementById('txt_email').value;
+    let fec = document.getElementById('txt_frep').value;
     let dir = document.getElementById('txt_dire').value;
     let idusu = document.getElementById('txtprincipalid').value;
 
@@ -251,7 +253,7 @@ function Registrar_Tramite(){
     if(arc.length>0){
         nombrearchivo="ARCH"+f.getDate()+""+(f.getMonth()+1)+""+f.getFullYear()+""+f.getHours()+""+f.getMilliseconds()+"."+extension;
     }
-    if(dni.length==0 || nom.length==0 || apt.length==0 || apm.length==0 || cel.length==0 || ema.length==0 || dir.length==0 ){
+    if(dni.length==0 || nom.length==0 || apt.length==0 || apm.length==0 || cel.length==0 || ema.length==0 || fec.length==0 || dir.length==0 ){
         return Swal.fire("Mensaje de Advertencia","Llene todos los datos del remitente","warning");
     }
 
@@ -268,6 +270,7 @@ function Registrar_Tramite(){
     formData.append("apm",apm);
     formData.append("cel",cel);
     formData.append("ema",ema);
+    formData.append("fec",fec);
     formData.append("dir",dir);
     formData.append("vpresentacion",vpresentacion);
     formData.append("ruc",ruc);

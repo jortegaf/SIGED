@@ -190,7 +190,7 @@
                             </div>
                             <div class="col-12">
                                  <label for="" style="font-size:small;">FECHA/RECEPCIÓN</label>
-                                 <input type="text" class="form-control datetimepicker-input" id="reservationdate" data-target-input="nearest" data-target="#reservationdate">
+                                 <input type="text" class="form-control" id="txt_frep" readonly style="background-color:white;">
                             </div>
                             <div class="col-12">
                                 <label for="" style="font-size:small;">DIRECCIÓN</label>
