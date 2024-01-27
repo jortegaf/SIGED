@@ -25,6 +25,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
+    <img src="Imgs/ImgANTTEC.jpg" alt="Logo" class="img-fluid">
     <a href="index.php"><b>LOGIN GESTIÓN DOCUMENTAL</b></a>
   </div>
   <!-- /.login-logo -->
