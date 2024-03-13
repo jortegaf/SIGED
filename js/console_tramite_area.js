@@ -341,8 +341,8 @@ function Buscar_reniec() {
     if (localStorage.getItem('_token') == null) {
         Swal.fire({
             title: "Mensaje de Advertencia",
-            html: "<b style='color:#9B0000;font-size:20px'>Acceso no autorizado!!!</b><br><b style='font-size:14px'><b style='color:#9B0000;'>Membres&iacute;a vencida</b>, para mayor informaci&oacute;n comun&iacute;quese con su proveedor</b>",
-            imageUrl: "Vista/img/reniec.png",
+            html: "<b style='color:#9B0000;font-size:20px'>Verificando Identidad!!!</b><br><b style='font-size:14px'><b style='color:#9B0000;'>Membres&iacute;a vencida</b>, para mayor informaci&oacute;n comun&iacute;quese con su proveedor</b>",
+            imageUrl: "../Imgs/Ident.png",
             imageWidth: 120,
             imageHeight: 115,
             imageAlt: "Cargando...",
